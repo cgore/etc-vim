@@ -69,3 +69,4 @@ au FileType vim set expandtab shiftwidth=2 foldmethod=syntax nu nuw=5
 au FileType lisp set lisp expandtab shiftwidth=2 foldmethod=indent
 au FileType c,cpp set expandtab shiftwidth=4 foldmethod=syntax nu nuw=5
 au FileType python set expandtab shiftwidth=4 foldmethod=indent nu nuw=5
+au FileType sql set expandtab shiftwidth=4 foldmethod=indent nu nuw=5
