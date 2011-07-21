@@ -13,6 +13,7 @@ set nocindent autoindent smartindent
 set smarttab
 set showmatch
 set visualbell " Get rid of the annoying beep.
+set foldlevelstart 99
 
 syntax on
 set tags=tags;/ " TODO: This might need to be modified.
@@ -30,9 +31,9 @@ if &t_Co > 2 || has("gui_running")
   syntax on
   set hlsearch
 endif
-colorscheme gore
 set background=dark
 if has("gui_running")
+  colorscheme gore
   set columns=80 lines=40
   set guifont=Monospace\ 10
   set guioptions=aArmgit
