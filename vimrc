@@ -66,7 +66,7 @@ set background=dark
 if has("gui_running")
   colorscheme gore
   set columns=80 lines=40
-  set guifont=Monospace\ 10
+  set guifont=Courier\ 12
   set guioptions=aArmgit
 endif
 
