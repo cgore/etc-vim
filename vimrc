@@ -45,6 +45,7 @@ set smarttab
 set showmatch
 set visualbell " Get rid of the annoying beep.
 set foldlevelstart=99
+set nonu
 
 syntax on
 set tags=tags;/ " TODO: This might need to be modified.
@@ -66,7 +67,7 @@ set background=dark
 if has("gui_running")
   colorscheme gore
   set columns=80 lines=40
-  set guifont=Inconsolata\ 12
+  set guifont=Courier\ 12
   set guioptions=aArmgit
 endif
 
@@ -93,12 +94,12 @@ augroup vimrcEx
 
 augroup END
 
-au FileType c,cpp set expandtab shiftwidth=4 foldmethod=syntax nu nuw=5
+au FileType c,cpp set expandtab shiftwidth=4 foldmethod=syntax
 au FileType html,htmldjango,xml,sgml,xhtml set expandtab shiftwidth=2 foldmethod=syntax
 au FileType lisp set lisp expandtab shiftwidth=2 foldmethod=indent
-au FileType perl set expandtab shiftwidth=4 foldmethod=indent nu nuw=5
-au FileType python set expandtab shiftwidth=4 foldmethod=indent nu nuw=5
-au FileType ruby,eruby set expandtab shiftwidth=2 foldmethod=syntax nu nuw=5
+au FileType perl set expandtab shiftwidth=4 foldmethod=indent
+au FileType python set expandtab shiftwidth=4 foldmethod=indent
+au FileType ruby,eruby set expandtab shiftwidth=2 foldmethod=syntax
 au FileType sh,bash,zsh set expandtab shiftwidth=4 foldmethod=syntax
-au FileType sql set expandtab shiftwidth=2 foldmethod=indent nu nuw=5
-au FileType vim set expandtab shiftwidth=2 foldmethod=syntax nonu
+au FileType sql set expandtab shiftwidth=2 foldmethod=indent
+au FileType vim set expandtab shiftwidth=2 foldmethod=syntax
