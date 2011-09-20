@@ -43,7 +43,7 @@ set linebreak
 set nocindent autoindent smartindent
 set smarttab
 set showmatch
-set visualbell " Get rid of the annoying beep.
+set vb t_vb=
 set foldlevelstart=99
 set nonu
 
