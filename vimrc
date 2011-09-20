@@ -68,8 +68,7 @@ if has("gui_running")
   colorscheme gore
   set columns=80 lines=40
   set guifont=Courier\ 12
-  set guioptions+=aAcgit
-  set guioptions-=mr
+  set guioptions=aAcgi
 endif
 
 " Enable file type detection.
