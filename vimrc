@@ -47,7 +47,6 @@ set vb t_vb=
 set foldlevelstart=99
 set nonu
 
-syntax on
 set tags=tags;/ " TODO: This might need to be modified.
 
 " Don't use Ex mode, use Q for formatting
@@ -94,6 +93,8 @@ augroup vimrcEx
 
 augroup END
 
+au BufRead,BufNewFile *.prawn set filetype=ruby
+
 au FileType c,cpp set expandtab shiftwidth=4 foldmethod=syntax
 au FileType html,htmldjango,xml,sgml,xhtml set expandtab shiftwidth=2 foldmethod=syntax
 au FileType lisp set lisp expandtab shiftwidth=2 foldmethod=indent
@@ -102,4 +103,5 @@ au FileType python set expandtab shiftwidth=4 foldmethod=indent
 au FileType ruby,eruby set expandtab shiftwidth=2 foldmethod=syntax
 au FileType sh,bash,zsh set expandtab shiftwidth=4 foldmethod=syntax
 au FileType sql set expandtab shiftwidth=2 foldmethod=indent
+au FileType tex set expandtab shiftwidth=2
 au FileType vim set expandtab shiftwidth=2 foldmethod=syntax
