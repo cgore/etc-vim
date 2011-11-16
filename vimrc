@@ -46,6 +46,7 @@ set showmatch
 set vb t_vb=
 set foldlevelstart=99
 set nonu
+set magic
 
 set tags=tags;/ " TODO: This might need to be modified.
 
@@ -62,9 +63,9 @@ if &t_Co > 2 || has("gui_running")
   syntax on
   set hlsearch
 endif
-set background=dark
+"set background=dark
 if has("gui_running")
-  colorscheme gore
+  "colorscheme gore
   set columns=80 lines=40
   set guifont=Courier\ 12
   set guioptions=aAcgi
