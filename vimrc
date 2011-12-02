@@ -96,6 +96,8 @@ augroup END
 
 au BufRead,BufNewFile *.prawn set filetype=ruby
 
+au BufRead,BufNewFile *.asd set filetype=lisp
+
 au FileType c,cpp set expandtab shiftwidth=4 foldmethod=syntax
 au FileType html,htmldjango,xml,sgml,xhtml set expandtab shiftwidth=2 foldmethod=syntax
 au FileType lisp set lisp expandtab shiftwidth=2 foldmethod=indent
