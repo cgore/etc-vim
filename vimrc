@@ -47,6 +47,7 @@ set vb t_vb=
 set foldlevelstart=99
 set nonu
 set magic
+set printoptions=paper:letter
 
 set tags=tags;/ " TODO: This might need to be modified.
 
