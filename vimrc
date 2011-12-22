@@ -109,3 +109,4 @@ au FileType sh,bash,zsh set expandtab shiftwidth=4 foldmethod=syntax
 au FileType sql set expandtab shiftwidth=2 foldmethod=indent
 au FileType tex set expandtab shiftwidth=2
 au FileType vim set expandtab shiftwidth=2 foldmethod=syntax
+au FileType cmake set expandtab shiftwidth=4 foldmethod=indent
