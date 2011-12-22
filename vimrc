@@ -68,7 +68,7 @@ set background=dark
 if has("gui_running")
   colorscheme gore
   set columns=80 lines=40
-  set guifont=Courier\ 12
+  set guifont=Courier\ 11
   set guioptions=aAcgi
 endif
 
