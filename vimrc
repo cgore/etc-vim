@@ -66,7 +66,7 @@ if &t_Co > 2 || has("gui_running")
 endif
 set background=light
 if has("gui_running")
-  colorscheme light
+  colorscheme default
   set columns=80 lines=40
   set guifont=Courier\ 11
   set guioptions=aAcgi
