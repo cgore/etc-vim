@@ -64,9 +64,9 @@ if &t_Co > 2 || has("gui_running")
   syntax on
   set hlsearch
 endif
-set background=light
+set background=dark
 if has("gui_running")
-  colorscheme default
+  colorscheme gore
   set columns=80 lines=40
   set guifont=Courier\ 11
   set guioptions=aAcgi
