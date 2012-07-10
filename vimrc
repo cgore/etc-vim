@@ -64,9 +64,9 @@ if &t_Co > 2 || has("gui_running")
   syntax on
   set hlsearch
 endif
-set background=dark
+"set background=dark
 if has("gui_running")
-  colorscheme gore
+  "colorscheme gore
   set columns=80 lines=40
   set guifont=Courier\ 11
   set guioptions=aAcgi
@@ -104,7 +104,7 @@ au FileType html,htmldjango,xml,sgml,xhtml set expandtab shiftwidth=2 foldmethod
 au FileType lisp set lisp expandtab shiftwidth=2 foldmethod=indent
 au FileType perl set expandtab shiftwidth=4 foldmethod=indent
 au FileType python set expandtab shiftwidth=4 foldmethod=indent
-au FileType ruby,eruby set expandtab shiftwidth=2 foldmethod=syntax
+au FileType ruby,eruby set expandtab shiftwidth=2 foldmethod=indent
 au FileType sh,bash,zsh set expandtab shiftwidth=4 foldmethod=syntax
 au FileType sql set expandtab shiftwidth=2 foldmethod=indent
 au FileType tex set expandtab shiftwidth=2
