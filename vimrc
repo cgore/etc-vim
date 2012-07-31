@@ -63,12 +63,13 @@ map Q gq
 if &t_Co > 2 || has("gui_running")
   syntax on
   set hlsearch
+  colorscheme cgore
+  set background=dark
 endif
-"set background=dark
+
 if has("gui_running")
-  "colorscheme gore
   set columns=80 lines=40
-  set guifont=Courier\ 11
+  set guifont=Courier\ 12
   set guioptions=aAcgi
 endif
 
