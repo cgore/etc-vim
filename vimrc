@@ -64,7 +64,7 @@ if &t_Co > 2 || has("gui_running")
   syntax on
   set hlsearch
   colorscheme cgore
-  set background=dark
+  set background=light
 endif
 
 if has("gui_running")
