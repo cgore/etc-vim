@@ -63,8 +63,8 @@ map Q gq
 if &t_Co > 2 || has("gui_running")
   syntax on
   set hlsearch
-  colorscheme cgore
-  set background=dark
+  "colorscheme cgore
+  "set background=dark
 endif
 
 if has("gui_running")
@@ -100,7 +100,8 @@ au BufRead,BufNewFile *.prawn set filetype=ruby
 
 au BufRead,BufNewFile *.asd set filetype=lisp
 
-au FileType c,cpp set expandtab shiftwidth=4 foldmethod=syntax
+au FileType c set expandtab shiftwidth=4 foldmethod=syntax
+au FileType cpp set expandtab shiftwidth=2 foldmethod=syntax
 au FileType html,htmldjango,xml,sgml,xhtml set expandtab shiftwidth=2 foldmethod=syntax
 au FileType lisp set lisp expandtab shiftwidth=2 foldmethod=indent
 au FileType perl set expandtab shiftwidth=4 foldmethod=indent
