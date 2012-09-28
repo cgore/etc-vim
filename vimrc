@@ -69,7 +69,7 @@ endif
 
 if has("gui_running")
   set columns=80 lines=40
-  set guifont=Courier\ 12
+  set guifont=Courier\ 14
   set guioptions=aAcgi
 endif
 
